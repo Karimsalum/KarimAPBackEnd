@@ -5,10 +5,10 @@
  */
 package com.portfolio.karim.Controller;
 
+import com.portfolio.karim.Dto.dtoExperiencia;
 import com.portfolio.karim.Entity.Experiencia;
 import com.portfolio.karim.Security.Controller.Mensaje;
 import com.portfolio.karim.Service.SExperiencia;
-import com.portfolio.karim.Dto.dtoExperiencia;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +26,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/explab")
-//@CrossOrigin(origins = "http://localhost:4200")
 @CrossOrigin(origins = "https://karimfrontapp.web.app")
 public class CExperiencia {
     @Autowired

@@ -1,4 +1,3 @@
-
 package com.portfolio.karim.Controller;
 
 import com.portfolio.karim.Dto.dtoEducacion;
@@ -22,7 +21,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/educacion")
-//@CrossOrigin(origins = "http://localhost:4200")
 @CrossOrigin(origins = "https://karimfrontapp.web.app")
 public class CEducacion {
     @Autowired
