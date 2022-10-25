@@ -48,6 +48,9 @@ public class PersonaController {
         return new ResponseEntity(new Mensaje("Educacion eliminada"), HttpStatus.OK);
     }*/
     
+    
+    
+    
    /* @PostMapping("/create")
     public ResponseEntity<?> create(@RequestBody dtoEducacion dtoeducacion){
         if(StringUtils.isBlank(dtoeducacion.getNombreE())){
