@@ -25,6 +25,7 @@ com\portfolio\karim\Controller\CExperiencia.class
 com\portfolio\karim\Controller\CHys.class
 com\portfolio\karim\Security\Repository\iUsuarioRepository.class
 com\portfolio\karim\Repository\RExperiencia.class
+com\portfolio\karim\WebConfig.class
 com\portfolio\karim\Security\Service\RolService.class
 com\portfolio\karim\Repository\REducacion.class
 com\portfolio\karim\Security\MainSecurity.class
